@@ -1,5 +1,5 @@
 /* Barn Book service worker: app shell offline, refreshed in the background. */
-const CACHE = 'barn-book-v1';
+const CACHE = 'barn-book-v2';
 const SHELL = ['./', 'index.html', 'app.js', 'styles.css', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {

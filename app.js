@@ -655,7 +655,7 @@ function viewHorses() {
   return `
     <div class="monthnav">
       <button data-act="horse-month" data-n="-1" aria-label="Previous month">‹</button>
-      <div class="m">${monthLabel(m)}<small>${total} ride${total === 1 ? '' : 's'} total</small></div>
+      <div class="m">${monthLabel(m)}<small>${total} lessons + rides</small></div>
       <button data-act="horse-month" data-n="1" aria-label="Next month">›</button>
     </div>
     <div class="list" id="horseList">${use.length ? use.map(({ h, nL, nR, n }) => `
